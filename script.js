@@ -17,7 +17,7 @@ function convertTime() {
     const adjustedRemainder = Math.round(adjustedSeconds % 60);
 
     resultEl.innerHTML =
-        `Adjusted Time:<br> ${adjustedMinutes} minute(s) and ${adjustedRemainder} second(s)`;
+        `Adjusted Time:<br><strong>${adjustedMinutes} minute(s) and ${adjustedRemainder} second(s)</strong>`;
 }
 
 document.addEventListener("DOMContentLoaded", function () {
