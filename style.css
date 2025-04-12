@@ -33,7 +33,7 @@ input {
   padding: 8px;
   margin-top: 5px;
   border: 1px solid #ccc;
-  /* border-radius: 6px; */
+  border-radius: 0px;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -42,7 +42,7 @@ select {
   padding: 8px;
   margin-top: 5px;
   border: 1px solid #ccc;
-  /* border-radius: 6px; */
+  border-radius: 0px;
   background-color: white;
   font-family: 'Roboto', sans-serif;
   font-size: 1.2rem;
